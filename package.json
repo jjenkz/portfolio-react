@@ -1,8 +1,7 @@
 {
-  "name": "github-react-portfolio-template",
-  "homepage": "https://YourUserName.github.io/your-repo/",
+  "name": "github-react-portfolio",
+  "homepage": "https://jjenkz.github.io/",
   "version": "1.0.2",
-  "private": true,
   "dependencies": {
     "@iconify/react": "^4.1.0",
     "@reduxjs/toolkit": "^2.2.6",
@@ -40,6 +39,18 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

@@ -57,12 +57,12 @@ const App = ({ projectCardImages = [], filteredProjects = [] }) => {
     if (projectsData !== undefined && projectsData.length !== 0) {
       projectsData.forEach((element) => {
         const tempObj = {
-          id: null,
-          homepage: null,
-          description: null,
-          image: null,
-          name: null,
-          html_url: null,
+          id: element.id,
+          homepage: element.homepage,
+          description: element.description,
+          image: element.image,
+          name: element.name,
+          html_url: element.html_url,
         };
         tempObj.id = element.id;
         tempObj.homepage = element.homepage;
